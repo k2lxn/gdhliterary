@@ -1,0 +1,76 @@
+/*
+ Theme Name:   brutal Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  brutal Child Theme
+ Author:       Jane Reynolds
+ Author URI:   http://janereynolds.rocks
+ Template:     brutal
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  brutal-child
+*/
+.page-content a:after,
+.entry-content a:after,
+.entry-summary a:after,
+.comment-content a:after {
+	content: '\2192';
+}
+
+.page-content a:focus, .page-content a:hover,
+.entry-content a:focus,
+.entry-content a:hover,
+.entry-summary a:focus,
+.entry-summary a:hover,
+.comment-content a:focus,
+.comment-content a:hover {
+	color: #f44292;
+}
+
+#front-page {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 400px) {
+	#front-page {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#front-page {
+		width: 85%;
+		max-width: 900px;
+	}
+}
+
+#front-page h1 {
+	font-family: "Zilla Slab Highlight", "Rokkitt", "Open Sans", Helvetica;
+	font-weight: 400;
+	text-align: right;
+	font-size: 3rem;
+	margin: 80px 0;
+}
+
+@media screen and (min-width: 400px) {
+	#front-page h1 {
+		margin: 100px 0;
+	}
+}
+
+#front-page h2 {
+	font-size: 1.3rem;
+}
+
+#front-page h2 a {
+	color: #f44292;
+	overflow-wrap: break-word;
+}
+
+#front-page p {
+	font-size: 1rem;
+}
+
+/*# sourceMappingURL=../brutal/sass/maps/style.css.map */

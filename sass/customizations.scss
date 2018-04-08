@@ -1,0 +1,16 @@
+.page-content,
+.entry-content,
+.entry-summary,
+.comment-content {
+	
+	a {
+		&:after {
+			content: '\2192';
+		}
+			
+		&:focus,
+		&:hover {
+			color: $color__interactive;
+		}
+	}
+}
