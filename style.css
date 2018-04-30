@@ -27,6 +27,23 @@
 	color: #f44292;
 }
 
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body.home {
+	/*
+	background-image: url(firetype.svg);
+	background-repeat: no-repeat;
+	background-postion: center center;
+	background-size: 30%;
+*/
+	background: url(firetype.svg) no-repeat center bottom;
+	background-size: 50%;
+}
+
 #front-page {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	margin: 0 auto;
